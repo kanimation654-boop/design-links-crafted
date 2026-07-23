@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useI18n } from "@/i18n";
 import { Menu, X, Languages } from "lucide-react";
+import logo from "@/assets/design-links-logo.jpeg.asset.json";
 
 const sections = ["home", "about", "services", "calc", "projects", "team", "blog", "contact"] as const;
 
@@ -28,9 +29,13 @@ export default function Navbar() {
       }`}
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 sm:px-6">
-        <a href="#home" className="flex items-center gap-2">
-          <div className="grid h-10 w-10 place-items-center rounded-xl bg-gradient-primary text-white font-black shadow-elegant">DL</div>
-          <div className="flex flex-col leading-tight">
+        <a href="#home" className="flex items-center gap-2.5">
+          <img
+            src={logo.url}
+            alt="Design Links Construction & Property logo"
+            className={`h-11 w-11 rounded-full object-cover shadow-elegant transition-all ${scrolled ? "ring-2 ring-primary/20" : "ring-2 ring-white/40"}`}
+          />
+          <div className="hidden sm:flex flex-col leading-tight">
             <span className={`font-display font-black text-sm sm:text-base ${scrolled ? "text-primary" : "text-white"}`}>{t("brand")}</span>
             <span className={`text-[10px] uppercase tracking-widest ${scrolled ? "text-muted-foreground" : "text-white/80"}`}>Construction & Property</span>
           </div>

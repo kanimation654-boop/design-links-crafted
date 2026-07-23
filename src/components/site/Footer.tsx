@@ -1,5 +1,6 @@
 import { useI18n } from "@/i18n";
 import { Facebook, Instagram, Linkedin, Youtube, MessageCircle, MapPin, Phone, Mail } from "lucide-react";
+import logo from "@/assets/design-links-logo.jpeg.asset.json";
 
 export default function Footer() {
   const { t } = useI18n();
@@ -26,7 +27,7 @@ export default function Footer() {
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
           <div>
             <div className="flex items-center gap-3">
-              <div className="grid h-11 w-11 place-items-center rounded-xl bg-gradient-accent font-black">DL</div>
+              <img src={logo.url} alt="Design Links logo" className="h-12 w-12 rounded-full object-cover ring-2 ring-white/20" />
               <div>
                 <div className="font-black">{t("brand")}</div>
                 <div className="text-[10px] uppercase tracking-widest text-white/60">Construction & Property</div>
