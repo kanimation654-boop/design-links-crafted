@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useI18n } from "@/i18n";
-import { Bricks, Wrench, Layers, Paintbrush, Grid3x3, Home, Anchor, Calculator as CalcIcon } from "lucide-react";
+import { Brick, Wrench, Layers, Paintbrush, Grid3x3, Home, Anchor, Calculator as CalcIcon } from "lucide-react";
 
 type Calc = {
   id: string;
@@ -14,7 +14,7 @@ const calcs: Calc[] = [
   {
     id: "brick",
     title: "Brick Calculator",
-    icon: Bricks,
+    icon: Brick,
     fields: [
       { key: "length", label: "Wall Length (ft)", def: 10 },
       { key: "height", label: "Wall Height (ft)", def: 10 },
@@ -26,7 +26,7 @@ const calcs: Calc[] = [
       const bricks = Math.ceil((wallVol / brickVol) * 1.05);
       return [
         { label: "Wall Volume", value: `${wallVol.toFixed(2)} cu ft` },
-        { label: "Bricks Required", value: `${bricks.toLocaleString()}` },
+        { label: "Brick Required", value: `${bricks.toLocaleString()}` },
       ];
     },
   },
@@ -142,7 +142,7 @@ const calcs: Calc[] = [
       return [
         { label: "Excavation Volume", value: `${vol.toFixed(2)} cu ft` },
         { label: "PCC (3\")", value: `${(length * width * 0.25).toFixed(2)} cu ft` },
-        { label: "Bricks (approx)", value: `${Math.ceil(vol * 13)}` },
+        { label: "Brick (approx)", value: `${Math.ceil(vol * 13)}` },
       ];
     },
   },
