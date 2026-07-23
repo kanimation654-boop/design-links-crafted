@@ -1,6 +1,5 @@
 import { useI18n } from "@/i18n";
-// Replace with official CEO photograph
-import ceoImg from "@/assets/avatar-ceo.jpg";
+import ceoPortrait from "@/assets/ceo-portrait.png.asset.json";
 import { Quote } from "lucide-react";
 
 export default function CEO() {
@@ -13,8 +12,7 @@ export default function CEO() {
             <div className="relative mx-auto max-w-sm">
               <div className="absolute -inset-4 rounded-3xl bg-gradient-primary opacity-20 blur-2xl" />
               <div className="relative overflow-hidden rounded-3xl shadow-elegant border-4 border-white">
-                {/* Replace with official CEO photo */}
-                <img src={ceoImg} alt="CEO Manzoor Ahmad Nazar" className="w-full aspect-square object-cover" loading="lazy" />
+                <img src={ceoPortrait.url} alt={t("ceoName")} className="w-full aspect-square object-cover" loading="lazy" />
               </div>
               <div className="absolute -bottom-4 left-4 rounded-2xl bg-gradient-accent px-5 py-3 text-white shadow-elegant">
                 <div className="text-[10px] uppercase tracking-widest opacity-90">Founder & CEO</div>
