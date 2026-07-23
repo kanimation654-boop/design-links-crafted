@@ -1,7 +1,7 @@
 import { useI18n } from "@/i18n";
 import {
   Building2, Home, Building, Ruler, Box, Sofa, TreePine, HardHat, Layers, Key,
-  ClipboardCheck, Calculator, Brick, Package, Map, MapPinned, Landmark,
+  ClipboardCheck, Calculator, BrickWall, Package, Map, MapPinned, Landmark,
 } from "lucide-react";
 
 const services = [
@@ -17,7 +17,7 @@ const services = [
   { icon: Key, title: "Turnkey Construction", desc: "Complete turnkey delivery — you get the keys, we handle everything." },
   { icon: ClipboardCheck, title: "Construction Supervision", desc: "Professional supervision to ensure quality on-site." },
   { icon: Calculator, title: "Construction Cost Estimation", desc: "Accurate cost estimates for confident budgeting." },
-  { icon: Brick, title: "Brick Estimation", desc: "Exact brick quantity calculations for any wall." },
+  { icon: BrickWall, title: "BrickWall Estimation", desc: "Exact brick quantity calculations for any wall." },
   { icon: Package, title: "Material Estimation", desc: "Detailed material take-offs for the full project." },
   { icon: Map, title: "Town Planning", desc: "Comprehensive town and layout planning services." },
   { icon: MapPinned, title: "Site Planning", desc: "Optimal site layouts that maximize land use." },
