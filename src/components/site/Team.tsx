@@ -1,6 +1,6 @@
 import { useI18n } from "@/i18n";
 import aliHassan from "@/assets/ali-hassan.png.asset.json";
-import architect from "@/assets/avatar-architect.jpg";
+import ahmadTariq from "@/assets/ahmad-tariq.png.asset.json";
 
 const team = [
   {
@@ -11,10 +11,10 @@ const team = [
     skills: ["3D House Design", "Interior Design", "Exterior Design", "Architectural Visualization", "Realistic Rendering", "Landscape Visualization", "Presentation Design"],
   },
   {
-    name: "Ahmed",
+    name: "Ahmad Tariq",
     pos: "AutoCAD Draftsman & 2D Design Specialist",
-    img: architect,
-    desc: "Ahmed prepares accurate AutoCAD drawings, technical layouts, construction documentation, and detailed 2D plans with precision and professionalism.",
+    img: ahmadTariq.url,
+    desc: "Ahmad Tariq prepares accurate AutoCAD drawings, technical layouts, construction documentation, and detailed 2D plans with precision and professionalism.",
     skills: ["AutoCAD Drawings", "2D Floor Plans", "Working Drawings", "Construction Drawings", "Technical Documentation", "Site Drawings", "Project Drafting"],
   },
 ];
