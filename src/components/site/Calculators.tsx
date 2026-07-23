@@ -13,7 +13,7 @@ type Calc = {
 const calcs: Calc[] = [
   {
     id: "brick",
-    title: "BrickWall Calculator",
+    title: "Brick Calculator",
     icon: BrickWall,
     fields: [
       { key: "length", label: "Wall Length (ft)", def: 10 },
@@ -26,7 +26,7 @@ const calcs: Calc[] = [
       const bricks = Math.ceil((wallVol / brickVol) * 1.05);
       return [
         { label: "Wall Volume", value: `${wallVol.toFixed(2)} cu ft` },
-        { label: "BrickWall Required", value: `${bricks.toLocaleString()}` },
+        { label: "Bricks Required", value: `${bricks.toLocaleString()}` },
       ];
     },
   },
@@ -142,7 +142,7 @@ const calcs: Calc[] = [
       return [
         { label: "Excavation Volume", value: `${vol.toFixed(2)} cu ft` },
         { label: "PCC (3\")", value: `${(length * width * 0.25).toFixed(2)} cu ft` },
-        { label: "BrickWall (approx)", value: `${Math.ceil(vol * 13)}` },
+        { label: "Bricks (approx)", value: `${Math.ceil(vol * 13)}` },
       ];
     },
   },
