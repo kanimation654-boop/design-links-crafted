@@ -1,14 +1,13 @@
 import { useI18n } from "@/i18n";
-// Replace with official team photos
-import designer from "@/assets/avatar-designer.jpg";
+import aliHassan from "@/assets/ali-hassan.png.asset.json";
 import architect from "@/assets/avatar-architect.jpg";
 
 const team = [
   {
-    name: "Ali",
+    name: "Ali Hassan",
     pos: "Senior 3D Architectural Designer",
-    img: designer,
-    desc: "Ali specializes in creating modern, realistic, and high-quality architectural visualizations. He transforms ideas into elegant interior and exterior designs using advanced 3D design tools and visualization techniques.",
+    img: aliHassan.url,
+    desc: "Ali Hassan specializes in creating modern, realistic, and high-quality architectural visualizations. He transforms ideas into elegant interior and exterior designs using advanced 3D design tools and visualization techniques.",
     skills: ["3D House Design", "Interior Design", "Exterior Design", "Architectural Visualization", "Realistic Rendering", "Landscape Visualization", "Presentation Design"],
   },
   {
