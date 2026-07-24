@@ -49,9 +49,9 @@ export default function Hero() {
           </div>
 
           <div className="mt-16 grid grid-cols-3 gap-6 max-w-lg">
-            <Stat n={250} suffix="+" label="Projects" />
-            <Stat n={15} suffix="+" label="Years" />
-            <Stat n={500} suffix="+" label="Clients" />
+            <Stat n={2000} suffix="+" label="Projects" />
+            <Stat n={9} suffix="+" label="Years" />
+            <Stat n={3000} suffix="+" label="Clients" />
           </div>
         </div>
       </div>
