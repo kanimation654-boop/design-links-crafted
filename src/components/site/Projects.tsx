@@ -26,6 +26,66 @@ type Project = {
 
 const projects: Project[] = [
   {
+    img: dlModernSingle.url,
+    cat: "Residential",
+    title: { en: "Contemporary Single-Storey House", ur: "جدید سنگل اسٹوری ہاؤس" },
+    location: { en: "Burewala, Punjab", ur: "بورے والا، پنجاب" },
+    desc: {
+      en: "Sleek modern elevation with stone cladding, wooden louvers and layered facade lighting.",
+      ur: "اسٹون کلیڈنگ، لکڑی کے لوورز اور خوبصورت روشنی کے ساتھ جدید ایلیویشن۔",
+    },
+  },
+  {
+    img: dlVillaDay.url,
+    cat: "Residential",
+    title: { en: "Triple-Storey Modern Villa", ur: "تین منزلہ جدید ولا" },
+    location: { en: "Burewala, Punjab", ur: "بورے والا، پنجاب" },
+    desc: {
+      en: "Elegant three-storey home with stone feature walls, balconies and a designer main gate.",
+      ur: "اسٹون فیچر وال، بالکنیوں اور ڈیزائنر مین گیٹ کے ساتھ خوبصورت تین منزلہ گھر۔",
+    },
+  },
+  {
+    img: dlVillaDusk.url,
+    cat: "Residential",
+    title: { en: "Luxury Villa — Evening View", ur: "لگژری ولا — شام کا منظر" },
+    location: { en: "Vehari, Punjab", ur: "وہاڑی، پنجاب" },
+    desc: {
+      en: "Warm dusk render showcasing facade lighting design and premium exterior finishes.",
+      ur: "شام کے وقت فسیڈ لائٹنگ ڈیزائن اور اعلیٰ بیرونی فنشنگ کا منظر۔",
+    },
+  },
+  {
+    img: dlArchedVilla.url,
+    cat: "Residential",
+    title: { en: "Arched Facade Family Home", ur: "محرابی اگلے رخ والا فیملی ہوم" },
+    location: { en: "Multan, Punjab", ur: "ملتان، پنجاب" },
+    desc: {
+      en: "Modern-classic elevation with arched windows, stone texture and sloped roof accents.",
+      ur: "محرابی کھڑکیوں، اسٹون ٹیکسچر اور ڈھلوان چھت کے ساتھ ماڈرن کلاسک ایلیویشن۔",
+    },
+  },
+  {
+    img: dlClassicVilla.url,
+    cat: "Residential",
+    title: { en: "Spanish Classic Bungalow", ur: "اسپینش کلاسک بنگلہ" },
+    location: { en: "Sahiwal, Punjab", ur: "ساہیوال، پنجاب" },
+    desc: {
+      en: "Classical bungalow with terracotta tiled roof, ornate mouldings and wrought-iron gate.",
+      ur: "ٹیراکوٹا ٹائل چھت، نقش و نگار اور لوہے کے گیٹ کے ساتھ کلاسیکل بنگلہ۔",
+    },
+  },
+  {
+    img: dlHospital.url,
+    cat: "Commercial",
+    title: { en: "Multi-Storey Hospital Building", ur: "کثیرالمنزلہ ہسپتال عمارت" },
+    location: { en: "Burewala, Punjab", ur: "بورے والا، پنجاب" },
+    desc: {
+      en: "Three-storey healthcare facility with illuminated signage, pharmacy frontage and clean modern facade.",
+      ur: "روشن سائن بورڈ، فارمیسی فرنٹ اور جدید فسیڈ کے ساتھ تین منزلہ ہیلتھ کیئر عمارت۔",
+    },
+  },
+  {
     img: p2,
     cat: "Residential",
     title: { en: "Modern Family Residence", ur: "جدید فیملی رہائش گاہ" },
