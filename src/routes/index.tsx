@@ -16,6 +16,8 @@ import Careers from "@/components/site/Careers";
 import Contact from "@/components/site/Contact";
 import Footer from "@/components/site/Footer";
 import WhatsAppFAB from "@/components/site/WhatsAppFAB";
+import bgVideo from "@/assets/bg-house.mp4.asset.json";
+
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -65,9 +67,20 @@ function Home() {
 function Page() {
   useReveal();
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-transparent">
+      <video
+        className="site-bg-video"
+        src={bgVideo.url}
+        autoPlay
+        muted
+        loop
+        playsInline
+        aria-hidden="true"
+      />
+      <div className="site-bg-veil" aria-hidden="true" />
       <Navbar />
       <main>
+
         <Hero />
         <About />
         <CEO />
