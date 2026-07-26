@@ -16,6 +16,8 @@ import Careers from "@/components/site/Careers";
 import Contact from "@/components/site/Contact";
 import Footer from "@/components/site/Footer";
 import WhatsAppFAB from "@/components/site/WhatsAppFAB";
+import bgVideo from "@/assets/bg-house.mp4.asset.json";
+
 
 export const Route = createFileRoute("/")({
   head: () => ({
