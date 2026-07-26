@@ -65,9 +65,20 @@ function Home() {
 function Page() {
   useReveal();
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-transparent">
+      <video
+        className="site-bg-video"
+        src={bgVideo.url}
+        autoPlay
+        muted
+        loop
+        playsInline
+        aria-hidden="true"
+      />
+      <div className="site-bg-veil" aria-hidden="true" />
       <Navbar />
       <main>
+
         <Hero />
         <About />
         <CEO />
