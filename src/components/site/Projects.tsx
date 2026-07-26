@@ -5,6 +5,13 @@ import p2 from "@/assets/project2.jpg";
 import p4 from "@/assets/project4.jpg";
 import p5 from "@/assets/project5.jpg";
 import p6 from "@/assets/project6.jpg";
+import dlHospital from "@/assets/dl-hospital.jpg.asset.json";
+import dlVillaDay from "@/assets/dl-villa-day.jpg.asset.json";
+import dlVillaDusk from "@/assets/dl-villa-dusk.jpg.asset.json";
+import dlModernSingle from "@/assets/dl-modern-single.jpg.asset.json";
+import dlArchedVilla from "@/assets/dl-arched-villa.jpg.asset.json";
+import dlClassicVilla from "@/assets/dl-classic-villa.jpg.asset.json";
+
 import { X, MapPin } from "lucide-react";
 
 type Category = "Residential" | "Commercial" | "Industrial";
